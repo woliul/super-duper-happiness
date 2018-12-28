@@ -5,6 +5,6 @@
 	<title>Super Duper Happiness</title>
 </head>
 <body>
-	<?php echo "Hello World?">
+	<?php echo "Hello World"?>
 </body>
 </html>
