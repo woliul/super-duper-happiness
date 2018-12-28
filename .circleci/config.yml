@@ -31,4 +31,4 @@ jobs:
           command: php composer.phar install
       - run:
           name: Run Unit tests
-          command: vendor/bin/phpunit phpunit.xml
+          command: vendor/bin/phpunit --configuration phpunit.xml --no-configuration
