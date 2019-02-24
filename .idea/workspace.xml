@@ -47,10 +47,7 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ff8a7e-2b27-4124-a550-036044fef818" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Fundamental/syntax.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="15ff8a7e-2b27-4124-a550-036044fef818" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +123,7 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -176,7 +173,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -230,7 +227,7 @@
       <workItem from="1551014995884" duration="2592000" />
       <workItem from="1551017636569" duration="67000" />
       <workItem from="1551017738831" duration="225000" />
-      <workItem from="1551018073731" duration="11000" />
+      <workItem from="1551018073731" duration="1138000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1546554564493</created>
@@ -257,7 +254,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17249000" />
+    <option name="totallyTimeSpent" value="18376000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -269,7 +266,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50140846" side_tool="true" weight="0.2496112" />
