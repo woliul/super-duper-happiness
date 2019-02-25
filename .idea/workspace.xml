@@ -47,9 +47,7 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ff8a7e-2b27-4124-a550-036044fef818" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="15ff8a7e-2b27-4124-a550-036044fef818" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +281,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50140846" side_tool="true" weight="0.2496112" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49859154" visible="true" weight="0.27781984" />
