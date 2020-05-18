@@ -4,10 +4,6 @@
     <expand>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
       <path>
@@ -16,7 +12,12 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="BuildServerSettings">
     <option name="LOGIN" value="woliul" />
@@ -65,11 +66,10 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ff8a7e-2b27-4124-a550-036044fef818" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Settings For PhpStorm/Jetbrain git ignor.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Settings For PhpStorm/README.md" afterDir="false" />
+    <list default="true" id="15ff8a7e-2b27-4124-a550-036044fef818" name="Default Changelist" comment="Update">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Settings For PhpStorm/Jetbrain git ignor.text" beforeDir="false" afterPath="$PROJECT_DIR$/Settings For PhpStorm/Jetbrain git ignor.text" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +196,8 @@
       <workItem from="1551070093292" duration="1451000" />
       <workItem from="1589728764528" duration="700000" />
       <workItem from="1589732254156" duration="22000" />
-      <workItem from="1589759383061" duration="4072000" />
+      <workItem from="1589759383061" duration="5315000" />
+      <workItem from="1589802936387" duration="196000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1546554564493</created>
@@ -219,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546557863862</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update">
+      <created>1589795729478</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589795729478</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -285,5 +293,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="204" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589794751640" />
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589795701502">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1589795701502" />
+    <state x="290" y="14" width="587" height="639" key="find.popup" timestamp="1589803128011">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="290" y="14" width="587" height="639" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1589803128011" />
   </component>
 </project>
