@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="BuildServerSettings">
     <option name="LOGIN" value="woliul" />
     <option name="SERVER_URL" value="http://localhost:80" />
@@ -47,8 +65,12 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ff8a7e-2b27-4124-a550-036044fef818" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="15ff8a7e-2b27-4124-a550-036044fef818" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Settings For PhpStorm/Jetbrain git ignor.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Settings For PhpStorm/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +78,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -70,34 +93,6 @@
     </option>
     <expand />
     <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="super-duper-happiness" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fundamental/syntax.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="22" selection-start-line="1" selection-end-line="10" selection-end-column="3" />
-              <folding>
-                <element signature="e#114#203#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,15 +109,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Fundamental/syntax.php" />
-        <option value="$PROJECT_DIR$/i.html" />
-        <option value="$PROJECT_DIR$/index.php" />
-      </list>
-    </option>
-  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -131,44 +117,14 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
+  <component name="ProjectId" id="1c2ZgdxPGfUg3enQeGatprlHO5E" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="2" id="Remove" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="super-duper-happiness" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="super-duper-happiness" type="b2602c69:ProjectViewProjectNode" />
-              <item name="super-duper-happiness" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -180,23 +136,19 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Fundamental" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Design\Documents\GitHub\super-duper-happiness\Settings For PhpStorm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Design\Documents\GitHub\super-duper-happiness\Fundamental" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/super-duper-happiness/index.php" useBuiltInWebServerPort="true">
@@ -242,6 +194,9 @@
       <workItem from="1551038218012" duration="14000" />
       <workItem from="1551038357720" duration="1221000" />
       <workItem from="1551070093292" duration="1451000" />
+      <workItem from="1589728764528" duration="700000" />
+      <workItem from="1589732254156" duration="22000" />
+      <workItem from="1589759383061" duration="4072000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1546554564493</created>
@@ -267,9 +222,6 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22347000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -279,62 +231,8 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info id="Favorites" order="0" sideWeight="0.50140846" side_tool="true" weight="0.2496112" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49859154" visible="true" weight="0.27781984" />
-      <window_info id="Structure" order="2" sideWeight="0.50140846" side_tool="true" weight="0.2496112" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32820514" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007776" side_tool="true" weight="0.32820514" />
-      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.4992224" weight="0.2974359" />
-      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32991454" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" weight="0.32991454" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="12" weight="0.32991454" />
-      <window_info anchor="bottom" id="TeamCity" order="13" visible="true" weight="0.32991454" />
-      <window_info anchor="bottom" id="IDEtalk Messages" order="14" />
-      <window_info anchor="bottom" id="Floobits" order="15" />
-      <window_info anchor="right" id="Remote Host" order="0" weight="0.32980332" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Database" order="2" weight="0.32021195" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="IDEtalk" order="5" weight="0.329296" />
-      <window_info anchor="right" id="Key Promoter X" order="6" weight="0.329296" />
-      <window_info anchor="right" id="Json Parser" order="7" show_stripe_button="false" weight="0.32980332" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" sideWeight="0.50140846" side_tool="true" weight="0.2496112" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49859154" visible="true" weight="0.24281392" />
-      <window_info id="Structure" order="2" sideWeight="0.50140846" side_tool="true" weight="0.2496112" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32820514" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007776" side_tool="true" weight="0.3289225" />
-      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.4992224" weight="0.2974359" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32991454" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info active="true" anchor="right" id="Remote Host" order="0" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="1" weight="0.3207262" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
@@ -344,22 +242,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -378,6 +261,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <confirmRemoveEmptyChangelist value="2" />
@@ -388,63 +272,18 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.software/CodeTime.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamental/syntax.php___jb_old___" />
-    <entry file="file://$PROJECT_DIR$/i.html" />
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamental/syntax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="22" selection-start-line="1" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="e#114#203#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="Copyright.UI">
-        <settings>
-          <last-edited>Woliul Hasan</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.19638243" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <last-edited>Unnamed</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.19638243" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="435" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589794868119">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1589794868119" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589729460743">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589729460743" />
+    <state x="204" y="0" key="SettingsEditor" timestamp="1589794751640">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="204" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589794751640" />
   </component>
 </project>
