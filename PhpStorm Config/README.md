@@ -7,7 +7,7 @@
 /** 
 * Created in ${PRODUCT_NAME}.
 * Project Name: ${PROJECT_NAME}
-* User: Woliul Hasan
+* User: Name or ${USER}
 * Date: ${DATE}
 * Time: ${TIME}
 */
