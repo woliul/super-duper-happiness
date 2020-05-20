@@ -24,7 +24,7 @@
 .idea/dbnavigator.xml
 .idea/webServers.xml
 ````
-###### You can add more information if its required for your project. To learn more click  **[here :)](https://intellij-support.jetbrains.com/hc/en-us/articles/206544839)**
+> You can add more information if its required for your project. To learn more click  **[here :)](https://intellij-support.jetbrains.com/hc/en-us/articles/206544839)**
 
 ## Copyright ©
  
@@ -54,3 +54,49 @@
 ## Debugger 🐞
 
 ### Xdebug
+
+* To download the ***latest version*** check this **[link](https://xdebug.org/docs/install)**
+* Download the ***suitable version*** for your project click **[here](https://xdebug.org/wizard)**
+* Move the downloaded file to ````C:\xampp\php\ext````
+* Update ````C:\xampp\php\php.ini```` and change the line
+````zend_extension = C:\xampp\php\ext\php_xdebug-xxx.dll````
+* To **enable** Xdebug, locate or create the ````[xdebug]```` section in the ````php.ini```` file and update it as follows:
+````
+[xdebug]
+zend_extension="<path to xdebug extension>"
+xdebug.remote_enable=1
+xdebug.remote_port="<the port for Xdebug to listen to>" (the default port is 9000)
+````
+* Restart the web server
+> Note: ````xxx```` define the version number like ````php_xdebug-2.9.5-7.2-vc15.dll````
+
+### Zen debugger
+
+* Download the **[Zend Debugger package](https://www.zend.com/downloads/zend-studio-web-debugger)** which corresponds to your operating system.
+* Locate the ````ZendDebugger.so```` (Unix) or ````ZendDebugger.dll```` (Windows) file in the directory that corresponds to your version of PHP (for example ````php-7.0.x````).
+* Copy the file to your Web server in a location that is accessible by the Web server.
+* Open the active ````php.ini```` file in the editor:
+* In the **Settings/Preferences** dialog **Ctrl+Alt+S**, click **PHP** under **Languages & Frameworks**.
+* On the **PHP** page that opens, click ````...```` next to the **CLI Interpreter** field.
+* In the **CLI Interpreters** dialog that opens, the **Configuration File** read-only field shows the path to the active ````php.ini```` file. Click **Open in Editor**.
+* Locate or create the ````[Zend]```` section.
+* To load the Zend Debugger extension, add one of the following lines inside the ````[Zend]```` section depending on your operating system:
+
+| Linux     | Windows|
+| ----------- | ----------- |
+| `zend_extension=<full_path_to_ZendDebugger.so>` | ` zend_extension=<full_path_to_ZendDebugger.dll>` |
+* To enable access to Zend Debugger from PhpStorm, add the following lines:
+
+````
+zend_extension=<full_path_to_zend_debugger_extension>
+zend_debugger.allow_hosts=127.0.0.1
+zend_debugger.expose_remotely=allowed_hosts
+zend_debugger.tunnel_min_port=<any integer value above 1024>
+zend_debugger.tunnel_max_port=<any integer value below 65535>
+````
+
+* The value of the ````zend_debugger.allow_hosts```` parameter is the IPs of your machine to connect to the server debugger. It could be a comma-separated list of IPs in the format ````X.X.X.X```` (for example, ````192.168.0.6````).
+
+* Restart your Web server.
+
+>Want to know more? click here for **[Xdebug](https://www.jetbrains.com/help/phpstorm/2020.1/configuring-xdebug.html?utm_campaign=PS&utm_content=2020.1&utm_medium=link&utm_source=product)** & **[Zend Debugger](https://www.jetbrains.com/help/phpstorm/2020.1/configuring-zend-debugger.html?utm_campaign=PS&utm_content=2020.1&utm_medium=link&utm_source=product)**
