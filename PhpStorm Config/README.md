@@ -29,9 +29,9 @@
 ## Copyright ©
  
 ### Add Timestamp
-* In the Settings/Preferences dialog Ctrl+Alt+S, select Editor | File and Code Templates.
+* In the **Settings/Preferences** dialog **Ctrl+Alt+S**, select **Editor | File and Code Templates**.
 
-* On the Files tab, click  and specify the name, file extension, and body of the template. And put this:
+* On the **Files** tab, click  and specify the name, file extension, and body of the template. And put this:
 
 ````
 /** 
@@ -50,8 +50,8 @@
 
 * Copy ````Copyright```` folder from ````.idea````
 * Paste it to````.idea```` folder in project
-* Right click in any ````File```` then click ````Update Copyright````
-* From ````Update Copyright Scope```` Window, Select ````Whole Project```` and Check mark on ````Update exiting copyrights```` and click ````OK````
+* Right click in any ````File```` then click **Update Copyright**
+* From **Update Copyright Scope** Window, Select **Whole Project** and Check mark on **Update exiting copyrights** and click **OK**
 
 ## Debugger 🐞
 
@@ -83,7 +83,7 @@ xdebug.remote_port="<the port for Xdebug to listen to>" (the default port is 900
 * Restart the web server
 > **Note:** ````xxx```` define the version number like ````php_xdebug-2.9.5-7.2-vc15.dll````
 
-### Zen debugger
+### Zend Debugger
 
 * Download the **[Zend Debugger package](https://www.zend.com/downloads/zend-studio-web-debugger)** which corresponds to your operating system.
 * Locate the ````ZendDebugger.so```` (Unix) or ````ZendDebugger.dll```` (Windows) file in the directory that corresponds to your version of PHP (for example ````php-7.0.x````).
