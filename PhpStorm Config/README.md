@@ -24,7 +24,7 @@
 .idea/dbnavigator.xml
 .idea/webServers.xml
 ````
-> You can add more information if its required for your project. To learn more click  **[here:blush:](https://intellij-support.jetbrains.com/hc/en-us/articles/206544839)**
+> You can add more information if its required for your project. To learn more :blush: click  **[here](https://intellij-support.jetbrains.com/hc/en-us/articles/206544839)**
 
 ## Copyright ©
  
