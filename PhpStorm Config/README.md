@@ -24,7 +24,7 @@
 .idea/dbnavigator.xml
 .idea/webServers.xml
 ````
-> You can add more information if its required for your project. To learn more click  **[here :)](https://intellij-support.jetbrains.com/hc/en-us/articles/206544839)**
+> You can add more information if its required for your project. To learn more click  **[here:blush:](https://intellij-support.jetbrains.com/hc/en-us/articles/206544839)**
 
 ## Copyright ©
  
@@ -99,4 +99,4 @@ zend_debugger.tunnel_max_port=<any integer value below 65535>
 
 * Restart your Web server.
 
->Want to know more? click here for **[Xdebug](https://www.jetbrains.com/help/phpstorm/2020.1/configuring-xdebug.html?utm_campaign=PS&utm_content=2020.1&utm_medium=link&utm_source=product)** & **[Zend Debugger](https://www.jetbrains.com/help/phpstorm/2020.1/configuring-zend-debugger.html?utm_campaign=PS&utm_content=2020.1&utm_medium=link&utm_source=product)**
+>Want to know more? :blush: click here for **[Xdebug](https://www.jetbrains.com/help/phpstorm/2020.1/configuring-xdebug.html?utm_campaign=PS&utm_content=2020.1&utm_medium=link&utm_source=product)** & **[Zend Debugger](https://www.jetbrains.com/help/phpstorm/2020.1/configuring-zend-debugger.html?utm_campaign=PS&utm_content=2020.1&utm_medium=link&utm_source=product)**
