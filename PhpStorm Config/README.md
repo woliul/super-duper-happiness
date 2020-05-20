@@ -2,7 +2,7 @@
 
 ## ````.gitignore````
 
-````
+````gitignore
 # User-specific stuff
 .idea/workspace.xml
 .idea/tasks.xml
@@ -61,7 +61,7 @@
 * Update ````C:\xampp\php\php.ini```` and change the line
 ````zend_extension = C:\xampp\php\ext\php_xdebug-xxx.dll````
 * To **enable** Xdebug, locate or create the ````[xdebug]```` section in the ````php.ini```` file and update it as follows:
-````
+````ini
 [xdebug]
 zend_extension="<path to xdebug extension>"
 xdebug.remote_enable=1
@@ -87,7 +87,7 @@ xdebug.remote_port="<the port for Xdebug to listen to>" (the default port is 900
 >| zend_extension=<full_path_to_ZendDebugger.so> | zend_extension=<full_path_to_ZendDebugger.dll> |
 
 * To enable access to Zend Debugger from PhpStorm, add the following lines:
-````
+````ini
 zend_extension=<full_path_to_zend_debugger_extension>
 zend_debugger.allow_hosts=127.0.0.1
 zend_debugger.expose_remotely=allowed_hosts
