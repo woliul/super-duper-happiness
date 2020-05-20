@@ -44,7 +44,7 @@
 ````
 * Apply the changes and close the dialog.
 
->**Note:** Some Files have different type of **blockquote**. Please ensure that, this comment work for that file; Otherwise rewrite the comment please.
+> **Note:** Some Files have different type of **blockquote**. Please ensure that, this comment work for that file; Otherwise rewrite the comment please.
 
 ### Copyright Update
 
@@ -56,12 +56,21 @@
 ## Debugger 🐞
 
 ### Xdebug
-
+**Installing on Linux & Macs**
 * To download the ***latest version*** check this **[link](https://xdebug.org/docs/install)**
 * Download the ***suitable version*** for your project click **[here](https://xdebug.org/wizard)**
 * Move the downloaded file to ````C:\xampp\php\ext````
 * Update ````C:\xampp\php\php.ini```` and change the line
 ````zend_extension = C:\xampp\php\ext\php_xdebug-xxx.dll````
+
+**Installing on Linux & Macs**
+* You can install Xdebug through PECL on Linux & macOS1. You can install Xdebug with PECL with:
+
+pecl install xdebug
+* When that is done, you still need to add the correct line to your php.ini: (don't forget to change the path and filename to the correct one — but make sure you use the full path):
+
+zend_extension="/usr/local/php/modules/xdebug.so"
+Note: You should ignore any prompts to add "extension=xdebug.so" to php.ini — this will cause problems.
 * To **enable** Xdebug, locate or create the ````[xdebug]```` section in the ````php.ini```` file and update it as follows:
 
 ````ini
@@ -72,7 +81,7 @@ xdebug.remote_port="<the port for Xdebug to listen to>" (the default port is 900
 ````
 
 * Restart the web server
-> Note: ````xxx```` define the version number like ````php_xdebug-2.9.5-7.2-vc15.dll````
+> **Note:** ````xxx```` define the version number like ````php_xdebug-2.9.5-7.2-vc15.dll````
 
 ### Zen debugger
 
