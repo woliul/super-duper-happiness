@@ -82,11 +82,11 @@ xdebug.remote_port="<the port for Xdebug to listen to>" (the default port is 900
 * Locate or create the ````[Zend]```` section.
 * To load the Zend Debugger extension, add one of the following lines inside the ````[Zend]```` section depending on your operating system:
 
-| Linux     | Windows|
-| ----------- | ----------- |
-| `zend_extension=<full_path_to_ZendDebugger.so>` | ` zend_extension=<full_path_to_ZendDebugger.dll>` |
-* To enable access to Zend Debugger from PhpStorm, add the following lines:
+>| Linux     | Windows|
+>| ----------- | ----------- |
+>| zend_extension=<full_path_to_ZendDebugger.so> | zend_extension=<full_path_to_ZendDebugger.dll> |
 
+* To enable access to Zend Debugger from PhpStorm, add the following lines:
 ````
 zend_extension=<full_path_to_zend_debugger_extension>
 zend_debugger.allow_hosts=127.0.0.1
