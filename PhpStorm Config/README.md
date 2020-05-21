@@ -113,3 +113,5 @@
 * Restart your Web server.
 
 >Want to know more? :blush: click here for **[Xdebug](https://www.jetbrains.com/help/phpstorm/2020.1/configuring-xdebug.html?utm_campaign=PS&utm_content=2020.1&utm_medium=link&utm_source=product)** & **[Zend Debugger](https://www.jetbrains.com/help/phpstorm/2020.1/configuring-zend-debugger.html?utm_campaign=PS&utm_content=2020.1&utm_medium=link&utm_source=product)**
+
+>Please Add PHP PATH as Global Using ````SET PATH=%PATH%;C:\xampp\php```` in CMD with Administrative Access.
