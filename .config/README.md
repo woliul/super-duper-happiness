@@ -119,7 +119,7 @@
 * To use any Folder from your PC follow this:
     * **Open** ````httpd.conf```` file
     * Add the following line **Under** ````<IfModule alias_module>````
-        ````apacheconfig
+        ````apache
         Alias /xxx "Path to your project"
         ````
     
