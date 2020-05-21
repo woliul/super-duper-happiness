@@ -118,13 +118,13 @@
 * Add **PHP PATH** Using **````SETX PATH "C:\xampp\php"````** & **````SETX /m PATH "C:\xampp\php"````** in **CMD**(Admin)
 * To use any Folder from your PC follow this:
     * **Open** ````httpd.conf```` file
-    * Add the following line under ````<IfModule alias_module>````
+    * Add the following line **Under** ````<IfModule alias_module>````
         ````apacheconfig
         Alias /xxx "Path to your project"
         ````
     
         >**Note:** ````xxx```` can be replaced by your desired name. Exp. A desired name like "project", so you have to add ````Alias /project "C:/Users/name/project"```` which will follow the address like ````localhost/project````.
-    * Add the following line before ````<IfModule headers_module>````:
+    * Add the following line **Before** ````<IfModule headers_module>````:
     
         ````apacheconfig
         <Directory "Path to your project">
