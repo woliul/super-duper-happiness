@@ -70,7 +70,7 @@
     * You can install Xdebug through PECL on Linux & macOS1. You can install Xdebug with PECL with: ````pecl install xdebug````
     * When that is done, you still need to add the correct line to your php.ini: (don't forget to change the path and filename to the correct one — but make sure you use the full path): ````zend_extension="/usr/local/php/modules/xdebug.so"````
     
-        > Note: You should ignore any prompts to add ````"extension=xdebug.so"```` to ````php.ini```` — this will cause problems.
+        > **Note:** You should ignore any prompts to add ````"extension=xdebug.so"```` to ````php.ini```` — this will cause problems.
 * To **enable** Xdebug, locate or create the ````[xdebug]```` section in the ````php.ini```` file and update it as follows:
 
     ````ini
