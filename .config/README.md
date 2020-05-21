@@ -123,7 +123,7 @@
         Alias /xxx "Path to your project"
         ````
     
-        >**Note:** ````xxx```` can be replaced by your desired name. Exp. A desired name like "project", so you have to add ````Alias /project "C:/Users/name/project"```` which will follow the address like ````localhost/project````.
+        >**Note:** ````xxx```` can be replaced by your desired name. *(Exp. A desired name like "project", so you have to add ````Alias /project "C:/Users/name/project"````)*
     * Add the following line **Before** ````<IfModule headers_module>````:
     
         ````apache
@@ -141,3 +141,4 @@
             Require all granted
         </Directory>
         ````
+> **Note:** ***Alias*** can help you to add **Any Folder** (ex.````project````) from **Any Location** (ex.````C:/Users/name/project```` or ````D:/Development/project````) on your PC; as a **Root Subdirectory** (ex.````htdocs/project````). Also, ***Alias*** Folder can access from browser like ````localhost/project````.
