@@ -51,7 +51,7 @@
 * Copy ````Copyright```` folder from ````.idea````
 * Paste it to````.idea```` folder in project
 * Right click in any ````File```` then click **Update Copyright**
-* From **Update Copyright Scope** Window, Select **Whole Project** and Check mark on **Update exiting copyrights** and click **OK**
+* From **Update Copyright Scope** Window, Select **Whole Project** and put Check Mark ✅ on **Update exiting copyrights** and click **OK**
 
 ## Debugger 🐞
 
