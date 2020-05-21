@@ -113,5 +113,31 @@
 * Restart your Web server.
 
 >Want to know more? :blush: click here for **[Xdebug](https://www.jetbrains.com/help/phpstorm/2020.1/configuring-xdebug.html?utm_campaign=PS&utm_content=2020.1&utm_medium=link&utm_source=product)** & **[Zend Debugger](https://www.jetbrains.com/help/phpstorm/2020.1/configuring-zend-debugger.html?utm_campaign=PS&utm_content=2020.1&utm_medium=link&utm_source=product)**
+# Configuration for XAMPP
 
->Please Add **PHP PATH** as **Global** Using **````SETX PATH "C:\xampp\php"````** & **````SETX /m PATH "C:\xampp\php"````** in **CMD**(Admin)
+* Add **PHP PATH** Using **````SETX PATH "C:\xampp\php"````** & **````SETX /m PATH "C:\xampp\php"````** in **CMD**(Admin)
+* To use any Folder from your PC follow this:
+    * **Open** ````httpd.conf```` file
+    * Add the following line under ````<IfModule alias_module>````
+        ````apacheconfig
+        Alias /xxx "Path to your project"
+        ````
+    
+        >**Note:** ````xxx```` can be replaced by your desired name. Exp. A desired name like "project", so you have to add ````Alias /project "C:/Users/name/project"```` which will follow the address like ````localhost/project````.
+    * Add the following line before ````<IfModule headers_module>````:
+    
+        ````apacheconfig
+        <Directory "Path to your project">
+            AllowOverride All
+            Options None
+            Require all granted
+        </Directory>
+        ````
+    * **Example:**
+        ````apacheconfig
+        <Directory "C:/Users/name/project">
+        AllowOverride All
+        Options None
+        Require all granted
+        </Directory>
+        ````
