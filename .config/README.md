@@ -136,8 +136,8 @@
     * **Example:**
         ````apacheconfig
         <Directory "C:/Users/name/project">
-        AllowOverride All
-        Options None
-        Require all granted
+            AllowOverride All
+            Options None
+            Require all granted
         </Directory>
         ````
