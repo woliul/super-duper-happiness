@@ -116,7 +116,7 @@
 # Configuration for XAMPP
 
 * Add **PHP PATH** Using **````SETX PATH "C:\xampp\php"````** & **````SETX /m PATH "C:\xampp\php"````** in **CMD**(Admin)
-* To use any Folder from your PC follow this:
+* **Alias** any **Folder** from your **PC** follow this:
     * **Open** ````httpd.conf```` file
     * Add the following line **Under** ````<IfModule alias_module>````
         ````apache
