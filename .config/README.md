@@ -126,7 +126,7 @@
         >**Note:** ````xxx```` can be replaced by your desired name. Exp. A desired name like "project", so you have to add ````Alias /project "C:/Users/name/project"```` which will follow the address like ````localhost/project````.
     * Add the following line **Before** ````<IfModule headers_module>````:
     
-        ````apacheconfig
+        ````apache
         <Directory "Path to your project">
             AllowOverride All
             Options None
@@ -134,7 +134,7 @@
         </Directory>
         ````
     * **Example:**
-        ````apacheconfig
+        ````apache
         <Directory "C:/Users/name/project">
             AllowOverride All
             Options None
