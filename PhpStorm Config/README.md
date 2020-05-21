@@ -33,15 +33,15 @@
 
 * On the **Files** tab, click  and specify the name, file extension, and body of the template. And put this:
 
-````
-/** 
-* Created in ${PRODUCT_NAME}.
-* Project Name: ${PROJECT_NAME}
-* User: Name or ${USER}
-* Date: ${DATE}
-* Time: ${TIME}
-*/
-````
+    ````
+    /** 
+    * Created in ${PRODUCT_NAME}.
+    * Project Name: ${PROJECT_NAME}
+    * User: Name or ${USER}
+    * Date: ${DATE}
+    * Time: ${TIME}
+    */
+    ````
 * Apply the changes and close the dialog.
 
 > **Note:** Some Files have different type of **blockquote**. Please ensure that, this comment work for that file; Otherwise rewrite the comment please.
@@ -56,21 +56,20 @@
 ## Debugger 🐞
 
 ### Xdebug
-**Installing on Linux & Macs**
+
 * To download the ***latest version*** check this **[link](https://xdebug.org/docs/install)**
 * Download the ***suitable version*** for your project click **[here](https://xdebug.org/wizard)**
-* Move the downloaded file to ````C:\xampp\php\ext````
-* Update ````C:\xampp\php\php.ini```` and change the line
+* **Installing on Windows**
+    * Move the downloaded file to ````C:\xampp\php\ext````
+    * Update ````C:\xampp\php\php.ini```` and change the line
 ````zend_extension = C:\xampp\php\ext\php_xdebug-xxx.dll````
 
-**Installing on Linux & Macs**
-* You can install Xdebug through PECL on Linux & macOS1. You can install Xdebug with PECL with:
+        > **Note:** ````xxx```` define the version number like ````php_xdebug-2.9.5-7.2-vc15.dll````
 
-pecl install xdebug
-* When that is done, you still need to add the correct line to your php.ini: (don't forget to change the path and filename to the correct one — but make sure you use the full path):
-
-zend_extension="/usr/local/php/modules/xdebug.so"
-Note: You should ignore any prompts to add "extension=xdebug.so" to php.ini — this will cause problems.
+* **Installing on Linux & Macs**
+    * You can install Xdebug through PECL on Linux & macOS1. You can install Xdebug with PECL with: ````pecl install xdebug````
+    * When that is done, you still need to add the correct line to your php.ini: (don't forget to change the path and filename to the correct one — but make sure you use the full path): ````zend_extension="/usr/local/php/modules/xdebug.so"````
+        > Note: You should ignore any prompts to add ````"extension=xdebug.so"```` to ````php.ini```` — this will cause problems.
 * To **enable** Xdebug, locate or create the ````[xdebug]```` section in the ````php.ini```` file and update it as follows:
 
 ````ini
@@ -81,7 +80,6 @@ xdebug.remote_port="<the port for Xdebug to listen to>" (the default port is 900
 ````
 
 * Restart the web server
-> **Note:** ````xxx```` define the version number like ````php_xdebug-2.9.5-7.2-vc15.dll````
 
 ### Zend Debugger
 
@@ -95,19 +93,19 @@ xdebug.remote_port="<the port for Xdebug to listen to>" (the default port is 900
 * Locate or create the ````[Zend]```` section.
 * To load the Zend Debugger extension, add one of the following lines inside the ````[Zend]```` section depending on your operating system:
 
->| Linux     | Windows|
->| ----------- | ----------- |
->| zend_extension=<full_path_to_ZendDebugger.so> | zend_extension=<full_path_to_ZendDebugger.dll> |
+    >| Linux     | Windows|
+    >| ----------- | ----------- |
+    >| zend_extension=<full_path_to_ZendDebugger.so> | zend_extension=<full_path_to_ZendDebugger.dll> |
 
 * To enable access to Zend Debugger from PhpStorm, add the following lines:
 
-````ini
-zend_extension=<full_path_to_zend_debugger_extension>
-zend_debugger.allow_hosts=127.0.0.1
-zend_debugger.expose_remotely=allowed_hosts
-zend_debugger.tunnel_min_port=<any integer value above 1024>
-zend_debugger.tunnel_max_port=<any integer value below 65535>
-````
+    ````ini
+    zend_extension=<full_path_to_zend_debugger_extension>
+    zend_debugger.allow_hosts=127.0.0.1
+    zend_debugger.expose_remotely=allowed_hosts
+    zend_debugger.tunnel_min_port=<any integer value above 1024>
+    zend_debugger.tunnel_max_port=<any integer value below 65535>
+    ````
 
 * The value of the ````zend_debugger.allow_hosts```` parameter is the IPs of your machine to connect to the server debugger. It could be a comma-separated list of IPs in the format ````X.X.X.X```` (for example, ````192.168.0.6````).
 
