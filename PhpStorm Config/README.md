@@ -72,12 +72,12 @@
         > Note: You should ignore any prompts to add ````"extension=xdebug.so"```` to ````php.ini```` — this will cause problems.
 * To **enable** Xdebug, locate or create the ````[xdebug]```` section in the ````php.ini```` file and update it as follows:
 
-````ini
-[xdebug]
-zend_extension="<path to xdebug extension>"
-xdebug.remote_enable=1
-xdebug.remote_port="<the port for Xdebug to listen to>" (the default port is 9000)
-````
+    ````ini
+    [xdebug]
+    zend_extension="<path to xdebug extension>"
+    xdebug.remote_enable=1
+    xdebug.remote_port="<the port for Xdebug to listen to>" (the default port is 9000)
+    ````
 
 * Restart the web server
 
