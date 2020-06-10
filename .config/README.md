@@ -57,7 +57,7 @@
 
 ### Xdebug
 
-* To download the ***latest version*** check this **[link](https://xdebug.org/docs/install)**
+* To download the ***the latest version*** check this **[link](https://xdebug.org/docs/install)**
 * Download the ***suitable version*** for your project click **[here](https://xdebug.org/wizard)**
 * **Installing on Windows**
     * Move the downloaded file to ````C:\xampp\php\ext````

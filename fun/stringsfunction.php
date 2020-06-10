@@ -17,5 +17,5 @@ $stringNew .= $stringTwo;
 echo $stringNew;
 echo "<br />"
 ?>
-    <html lang=""> Lower Case:
-    </html> <?php echo strtolower($stringNew); ?>
+    <!DOCTYPE html>
+    <html lang="en"> Lower Case:</html> <?php echo strtolower($stringNew); ?>

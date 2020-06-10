@@ -10,7 +10,6 @@
     }
   },
   "addons": [
-
   ],
   "stack": "heroku-18",
   "buildpacks": [
