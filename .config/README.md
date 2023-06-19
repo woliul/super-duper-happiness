@@ -39,31 +39,31 @@
   For Almost every language
     ````
     /** 
-    * Created in ${PRODUCT_NAME}.
-    * Project Name: ${PROJECT_NAME}
-    * User: Name or ${USER}
-    * Date: ${DATE}
-    * Time: ${TIME}
+      * Created in ${PRODUCT_NAME}.
+      * Project Name: ${PROJECT_NAME}
+      * User: Name or ${USER}
+      * Date: ${DATE}
+      * Time: ${TIME}
     */
     ````
   For HTML
     ````
     <!-- 
-      Created in ${PRODUCT_NAME}.
-      Project Name: ${PROJECT_NAME}
-      User: Name or ${USER}
-      Date: ${DATE}
-      Time: ${TIME}
+      * Created in ${PRODUCT_NAME}.
+      * Project Name: ${PROJECT_NAME}
+      * User: Name or ${USER}
+      * Date: ${DATE}
+      * Time: ${TIME}
     -->
     ````
   For Python
     ````
     """
-    Created in ${PRODUCT_NAME}.
-    Project Name: ${PROJECT_NAME}
-    User: Name or ${USER}
-    Date: ${DATE}
-    Time: ${TIME}
+      * Created in ${PRODUCT_NAME}.
+      * Project Name: ${PROJECT_NAME}
+      * User: Name or ${USER}
+      * Date: ${DATE}
+      * Time: ${TIME}
     """
     ````
 * Apply the changes and close the dialog.
